@@ -126,4 +126,9 @@ public class AbstractTest {
         System.out.println(new String(encodedBytes));
         System.out.println(new String(decodedBytes, Charset.forName("UTF-8")));
     }
+
+    @Test
+    public void testIO() {
+        System.out.println(System.getProperty("user.dir"));
+    }
 }
